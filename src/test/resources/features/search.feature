@@ -1,7 +1,7 @@
 Feature: Yandex search
 
   Scenario Outline: Search for Test Automation
-    Given I am on yandex.by page
+    Given I am on 21vek.by page
     When I type <search> into search input
     And Press Enter
     Then there are <count> search results present

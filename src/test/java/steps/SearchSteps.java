@@ -38,7 +38,7 @@ public class SearchSteps {
     }
 
 
-    @Given("I am on yandex.by page")
+    @Given("I am on 21vek.by page")
     public void iAmOnYandexByPage() {
         searchPage.open();
     }
